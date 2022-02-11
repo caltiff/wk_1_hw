@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding:0;
+    text-align: center;
+
+}
+
+section { 
+    height: 100vh;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 30px;
+    width: 40px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+footer:hover {
+   color: #ffffff;
+}
+
+
+.image_1 {
+    background-image: url(./01-lytton/1-Assets/the-pen.svg);
+    
+}
+
+.image_2 {
+    background-image: url(./01-lytton/1-Assets/is-mightier.svg);
+    background-color: #000000;
+}
+
+.image_3 {
+    background-color: #ffffff;
+    background-image: url(./01-lytton/1-Assets/than.svg);
+}
+
+.image_4 {
+    background-color: #000000;
+    background-image: url(./01-lytton/1-Assets/the-sword.svg);
+}
+
+.image_5 {
+ background-image: url(./01-lytton/1-Assets/end.svg);
+ background-color: #00f10a;
+}
+
+@media (max-width: 800px) {
+    section {
+        background-attachment: scroll;
+        height: 60vh;
+        width: auto;
+    }
+  
+}
